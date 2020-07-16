@@ -1,4 +1,4 @@
-$headerheight: 100px;
+$headerheight: 130px;
 $parawidthandheight: 150px;
 $desktopwidth: 200px;
 // $aboutmargin: 40px;
@@ -7,7 +7,8 @@ $desktopwidth: 200px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Shadows Into Light', cursive;
+  // font-family: 'Shadows Into Light', cursive;
+  font-family: 'Caveat', cursive;
 }
 
 body {
@@ -217,6 +218,7 @@ main {
   position: fixed;
   right: 0;
   bottom: 0;
+  transition: 0.2s
 }
 
 #aboutparent {
@@ -229,7 +231,6 @@ main {
   #chevronTwo {
     font-size: 50px;
     color: rgb(29, 26, 47);
-    position: absolute;
     top: 1390px;
     left: 40px;
     text-decoration: none;
@@ -265,7 +266,7 @@ main {
   }
 
   .aboutpara {
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px;
     color: rgb(29, 26, 47);
   }
@@ -445,31 +446,19 @@ main {
 
 @media only screen and (min-width: 991px) {
 
-  // body {
-    
-  //   height: 100vh;
-  //   width: 100vw;
 
   header {
-
-    // height: 150px;
         
     display: flex;
     float: left;
-    height: 100vh;
-    width: $desktopwidth;
+    height: 150px;
+    width: 100vw;
   }
 
   .show {
     flex-direction: column;
     width: 80px;
   }
-
-  // main {
-  //   width: calc(100% - #{$desktopwidth});
-  //   height: 100vh;
-  //   float: left;
-  // }
 
   #parawrapper {
     // width: calc(100% - #{$desktopwidth});
@@ -489,6 +478,12 @@ main {
   .bexface {
     height: auto;
     width: 340px;
+  }
+
+  #about{
+    .aboutpara {
+      font-size: 34px;
+    }
   }
 
   #aboutparent {
