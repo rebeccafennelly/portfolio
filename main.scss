@@ -319,17 +319,65 @@ header {
   text-decoration: underline;
   text-decoration-color: rgb(22, 219, 147);
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 10px;
 }
 
-.projects-grid div {
-  border: dashed 2px white;
+.project {
   border-radius: 20px;
   height: 300px;
   width: 240px;
   background: rgb(29, 26, 47);
+  position: relative;
+// :hover{
+//   background-color: red;
+// }  
+  h2 {
+  font-size: 32px;
+  text-align: center;
+
 }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+
+
+.hover-image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+
+}
+
+.image {
+  height: auto;
+  width: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20px;
+  height: 100%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgb(29, 26, 47) ;
+  border-radius: 20px;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+
 
 #contact {
   width: 85vw;
@@ -555,16 +603,43 @@ header {
   margin-top: 10px;
 
 }
-  #projects {
+
+#projects {
     .projects-grid {
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
 
       div {
         width: 280px;
+        color: white;
+        h2 {
+          font-size: 32px;
+          text-align: center;
+          margin-bottom: 10px;
+          margin-top: 10px;
+        }
+          p {
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+          }
       }
     }
-  }
+}
+
+
+// @mixin image () {
+//   width: 160px;
+//   height: 160px;
+
+// }
+//    .image {
+//      @include image ();
+//    } 
+   
+   
+  
+
 
   #contact h1 {
     font-size: 46px;
