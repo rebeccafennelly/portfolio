@@ -1,13 +1,12 @@
 $headerheight: 130px;
 $parawidthandheight: 150px;
 $desktopwidth: 200px;
-// $aboutmargin: 40px;
+$turquoise: rgb(22, 219, 147);
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  // font-family: 'Shadows Into Light', cursive;
   font-family: "Caveat", cursive;
 }
 
@@ -48,7 +47,7 @@ header {
     margin: 3px;
 
     &:hover {
-      border: 1px solid rgb(22, 219, 147);
+      border: 1px solid $turquoise;
       border-radius: 10px;
     }
   }
@@ -126,7 +125,7 @@ header {
     font-size: 70px;
     width: 100%;
     line-height: 50pt;
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 
   .fenn {
@@ -137,7 +136,7 @@ header {
     display: block;
     font-size: 30px;
     padding-left: 20px;
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 
   .social {
@@ -153,7 +152,7 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
@@ -163,7 +162,7 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
@@ -173,7 +172,7 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
@@ -183,7 +182,7 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
@@ -197,13 +196,13 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
 .bexface {
   height: auto;
-  width: 260px;
+  width: 240px;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -233,7 +232,7 @@ header {
     z-index: 2;
 
     &:hover {
-      color: rgb(22, 219, 147);
+      color: $turquoise;
     }
   }
 
@@ -244,7 +243,7 @@ header {
   width: 85vw;
 }
 .cv {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
     text-decoration: none;
     font-size: 1em;
     padding: 0;
@@ -253,16 +252,16 @@ header {
 .aboutheading {
     color: rgb(29, 26, 47);
     text-decoration: underline;
-    text-decoration-color: rgb(22, 219, 147);
+    text-decoration-color: $turquoise;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
-    padding-top: 14px;
+    padding-top: 10px;
   }
 
 .aboutpara {
-    font-size: 22px;
-    padding: 18px;
+    font-size: 16px;
+    padding: 14px;
     color: rgb(29, 26, 47);
   }
 
@@ -274,25 +273,24 @@ header {
   align-items: center;
   flex-direction: row;
   width: 85vw;
-  margin-top: 10px;
 }
 .fab {
-    font-size: 40px;
+    font-size: 26px;
     color: rgb(29, 26, 47);
 
     &:hover {
-      color: rgb(22, 219, 147);
+      color: $turquoise;
     }
   }
 
 .bullets {
-  padding: 20px 40px;
+  padding: 16px 40px;
   font-size: 16px;
   width: 71vw;
   li {
     list-style-type: circle;
     &:hover {
-      color: rgb(22, 219, 147);
+      color: $turquoise;
     }
   }
 }
@@ -315,13 +313,11 @@ header {
 .projectsheading {
   background-color: white;
   width: 85vw;
-  padding-bottom: 10px;
   margin: 0 auto;
   text-decoration: underline;
-  text-decoration-color: rgb(22, 219, 147);
+  text-decoration-color: $turquoise;
   text-align: center;
   font-size: 40px;
-  margin-top: 10px;
 }
 
 .project {
@@ -384,12 +380,26 @@ header {
         font-size: 30px;
         padding: 20px;
         :hover {
-          color: rgb(22, 219, 147);
+          color: $turquoise;
           font-size: 36px;
         }
       }
     }
   
+}
+
+#chevronThree {
+  font-size: 50px;
+  color: rgb(29, 26, 47);
+  position: relative;
+  left: 20px;
+  bottom: 8px;
+  text-decoration: none;
+  z-index: 2;
+
+  &:hover {
+    color: $turquoise;
+  }
 }
   
 
@@ -407,7 +417,7 @@ header {
     text-align: center;
     font-size: 30px;
     text-decoration: underline;
-    text-decoration-color: rgb(22, 219, 147);
+    text-decoration-color: $turquoise;
     margin-bottom: 40px;
   }
 
@@ -423,7 +433,7 @@ header {
     padding-bottom: 40px;
 
     &:hover {
-      color: rgb(22, 219, 147);
+      color: $turquoise;
     }
   }
 
@@ -440,7 +450,7 @@ header {
     text-decoration: none;
 
     &:hover {
-      color: rgb(22, 219, 147);
+      color: $turquoise;
     }
   }
 }
@@ -459,7 +469,7 @@ header {
   letter-spacing: 0.4em;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
@@ -469,7 +479,7 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: rgb(22, 219, 147);
+    color: $turquoise;
   }
 }
 
@@ -510,20 +520,23 @@ header {
   }
 
   .aboutpara {
-      font-size: 30px;
+      font-size: 24px;
       padding: 24px;
     }
 
   .skillSymbols {
     width: 85vw;
     margin-top: 10px;
-  }
-  .fab {
-      font-size: 60px;
+    i {
+      font-size: 50px;
     }
+  }
+  // .fab {
+  //     font-size: 60px;
+  //   }
   
   .bullets {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   #chevronTwo{
@@ -551,7 +564,7 @@ header {
     align-items: center;
       i {
       color: white;
-      font-size: 40px;
+      font-size: 34px;
       }
   }
 }
@@ -601,21 +614,26 @@ header {
   }
 
   .aboutpara {
-    font-size: 36px;
-    padding: 46px;
+    font-size: 32px;
+    padding: 36px;
   }
 
 
 .skillSymbols {
   margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  i {
+    padding: 0px 30px;
+  }
 }
 .fab {
     font-size: 80px;
   }
 
 .bullets {
-  margin-top: 30px;
-  font-size: 32px;
+  margin-top: 5px;
+  font-size: 28px;
   width: 75vw;
 }
 
