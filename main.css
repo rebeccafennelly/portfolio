@@ -220,7 +220,7 @@ header .menu-btn.open .menu-btn-burger::after {
 
 .bexface {
   height: auto;
-  width: 220px;
+  width: 260px;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -231,7 +231,7 @@ header .menu-btn.open .menu-btn-burger::after {
 
 .shrink {
   height: auto;
-  width: 110px;
+  width: 150px;
 }
 
 #aboutparent {
