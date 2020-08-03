@@ -212,7 +212,7 @@ header {
 
 .shrink {
   height: auto;
-  width: 160px;
+  width: 110px;
 }
 #aboutparent {
   height: 100vh;
@@ -286,7 +286,7 @@ header {
 .bullets {
   padding: 16px 40px;
   font-size: 16px;
-  width: 71vw;
+  width: 84vw;
   li {
     list-style-type: circle;
     &:hover {
@@ -506,7 +506,7 @@ header {
 
   .shrink {
     height: auto;
-    width: 190px;
+    width: 160px;
   }
 
   #about {
@@ -599,7 +599,7 @@ header {
 
   .shrink {
     height: auto;
-    width: 280px;
+    width: 270px;
   }
   
 
@@ -674,19 +674,6 @@ header {
 .overlay {
   width: 100%;
 }
-
-// @mixin image () {
-//   width: 160px;
-//   height: 160px;
-
-// }
-//    .image {
-//      @include image ();
-//    } 
-   
-   
-  
-
 
   #contact h1 {
     font-size: 46px;

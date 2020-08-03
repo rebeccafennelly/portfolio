@@ -231,7 +231,7 @@ header .menu-btn.open .menu-btn-burger::after {
 
 .shrink {
   height: auto;
-  width: 160px;
+  width: 110px;
 }
 
 #aboutparent {
@@ -321,7 +321,7 @@ header .menu-btn.open .menu-btn-burger::after {
 .bullets {
   padding: 16px 40px;
   font-size: 16px;
-  width: 71vw;
+  width: 84vw;
 }
 
 .bullets li {
@@ -567,7 +567,7 @@ header .menu-btn.open .menu-btn-burger::after {
   }
   .shrink {
     height: auto;
-    width: 190px;
+    width: 160px;
   }
   #about {
     background-color: white;
@@ -655,7 +655,7 @@ header .menu-btn.open .menu-btn-burger::after {
   }
   .shrink {
     height: auto;
-    width: 280px;
+    width: 270px;
   }
   #aboutparent {
     height: 100vh;
