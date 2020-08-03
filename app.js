@@ -21,17 +21,6 @@ const toggleMenu = () => {
   }
 };
 
-// window.onscroll = scrollFunction();
-
-// const scrollFunction() {
-//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//     document.getElementById(".bexface").style.width = "125px";
-//   } else {
-//     document.getElementById("header").style.fontSize = "250px";
-//   }
-// }
-// toggleMenu();
-
 const bexfaceImage = document.querySelector(".bexface");
 console.log(bexfaceImage);
 

@@ -208,6 +208,7 @@ header {
   right: 0;
   bottom: 0;
   transition: 0.8s;
+  z-index: 1;
 }
 
 .shrink {
@@ -329,53 +330,68 @@ header {
   width: 240px;
   background: rgb(29, 26, 47);
   position: relative;
-// :hover{
-//   background-color: red;
-// }  
   h2 {
+  padding-top: 10px;
   font-size: 32px;
   text-align: center;
-
+  color: white;
+  text-decoration: underline;
 }
   p {
     font-size: 20px;
     text-align: center;
+    color: white;
+    padding: 10px;
   }
 }
 
-
-
-.hover-image {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 30px;
-
-}
-
-.image {
-  height: auto;
-  width: 250px;
-}
+.project:hover .overlay {
+  opacity: 1;
+}  
 
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 20px;
+  right: 0;
   height: 100%;
-  width: 90%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color:rgb(29, 26, 47) ;
   border-radius: 20px;
-}
+  .hover-image {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  
+    .image {
+      height: auto;
+      width: 210px;
+      border-radius: 20px;
+    }
+}   
 
-.project:hover .overlay {
-  opacity: 1;
+.icons {
+      display: flex;
+      align-items: space-evenly;
+      i {
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        :hover {
+          color: rgb(22, 219, 147);
+          font-size: 36px;
+        }
+      }
+    }
+  
 }
+  
 
 
 
@@ -528,11 +544,17 @@ header {
     }
   }
 
-  #contact h1 {
-      font-size: 42px;
-    }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+      i {
+      color: white;
+      font-size: 40px;
+      }
+  }
 }
-
 /* AFTER MEDIA QUERY FOR  SIZE */
 
 @media only screen and (min-width: 991px) {
@@ -611,7 +633,6 @@ header {
 
       div {
         width: 280px;
-        color: white;
         h2 {
           font-size: 32px;
           text-align: center;
@@ -627,6 +648,14 @@ header {
     }
 }
 
+.image {
+  width: 250px;
+  height: auto;
+}
+
+.overlay {
+  width: 100%;
+}
 
 // @mixin image () {
 //   width: 160px;
