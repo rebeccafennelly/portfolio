@@ -210,7 +210,7 @@ header .menu-btn.open .menu-btn-burger::after {
   float: left;
   position: absolute;
   left: 40px;
-  bottom: 50px;
+  bottom: 110px;
   text-decoration: none;
 }
 
@@ -220,7 +220,7 @@ header .menu-btn.open .menu-btn-burger::after {
 
 .bexface {
   height: auto;
-  width: 240px;
+  width: 220px;
   position: fixed;
   right: 0;
   bottom: 0;
